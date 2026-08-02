@@ -8,7 +8,7 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var travelRouter = require('./routes/travel');
 var apiRouter = require('../app_api/routes/index');
-require('./models/db');
+require('../app_api/models/db');
 
 var app = express();
 
